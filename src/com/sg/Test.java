@@ -18,5 +18,8 @@ public class Test {
         Test.value = 1;
 
         System.out.println( "First test of commit to GitHub");
+
+        //Another breakpoint
+        Test.value = 2;
     }
 }
