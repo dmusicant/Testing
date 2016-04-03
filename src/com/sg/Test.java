@@ -1,5 +1,7 @@
 package com.sg;
 
+import com.testcompany.util.Util;
+
 /**
  * Created by DMusicant on 4/3/16.
  */
@@ -8,6 +10,10 @@ public class Test {
 
     public static void main(String[] args)
     {
+        Util util = new Util( "Test" );
+
+        System.out.println( "Imported library: " + util.getName());
+
         Test.value = 1;
 
         System.out.println( "First test of commit to GitHub");
